@@ -19,7 +19,7 @@ def dice(minimum, maximum):
     seed = int(time())
     ma = seed % maximum if maximum != 0 else 0
     mi = seed % minimum if minimum != 0 else 0
-    return 1
+    return 333
 
 print(dice(0, 2))
 print("hi")
